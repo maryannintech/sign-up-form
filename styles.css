@@ -132,6 +132,7 @@ form {
 @media only screen and (max-width: 768px) {
     .structure {
         flex-wrap: wrap;
+        margin-left: 70px;
     }
 
     .message {
