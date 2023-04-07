@@ -14,7 +14,8 @@ body {
 }
 
 img {
-    width: 500px;
+    width: 600px;
+    height: 800px;
 }
 
 .structure {
@@ -73,6 +74,9 @@ form h1 {
 
 .names, .email_num, .pass {
     margin: 10px 8px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
 }
 
 .log_in {
@@ -95,6 +99,12 @@ input {
     font-weight: 500;
     font-size: medium;
     padding: 6px 8px;
+    display: block;
+}
+
+label {
+    position: relative;
+    display: block;
 }
 
 form {
