@@ -25,6 +25,8 @@ img {
     background-color: whitesmoke;
 }
 
+/*LOGO*/
+
 .logo {
     position: relative;
     display: flex;
@@ -53,6 +55,8 @@ img {
     color: white;
 }
 
+/*FORM*/
+
 .message {
     font-size: var(--font-size);
     background-color: whitesmoke;
@@ -75,8 +79,9 @@ form h1 {
 .names, .email_num, .pass {
     margin: 10px 8px;
     display: flex;
-    gap: 100px;
+    gap: 50px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .log_in {
@@ -129,20 +134,37 @@ form {
         flex-wrap: wrap;
     }
 
-    .logo {
-        height: 100px;
-    }
-
-    .logo p {
-        display: none;
-    }
-
     .message {
         margin: 8px 0;
     }
 
     .form {
         padding-left: 60px;
-        margin: 10px;
+        justify-content: center;
+    }
+
+    .names, .email_num, .pass {
+        gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .structure {
+        flex-wrap: wrap;
+    }
+
+    .names, .email_num, .pass {
+        gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .logo img {
+        height: 1000px;
+        width: 500px;
+    }
+
+    .names, .email_num, .pass {
+        gap: 10px;
     }
 }
