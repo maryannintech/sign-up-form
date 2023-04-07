@@ -99,7 +99,7 @@ form h1 {
 
 input {
     appearance: none;
-    border-radius: 10px;
+    border-radius: 30px;
     border: 3px solid grey;
     font-weight: 500;
     font-size: medium;
