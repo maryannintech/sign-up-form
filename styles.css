@@ -66,6 +66,10 @@ img {
     font-size: 1.125rem;
 }
 
+form h1 {
+    color: white;
+}
+
 .names, .email_num, .pass {
     margin: 10px 8px;
 }
@@ -76,39 +80,36 @@ img {
 }
 
 .button {
-    background-color: #6f5e53;
+    background-color: #7f5539;
     color: white;
     cursor: pointer;
+    font-size: 1.5rem;
 }
 
 input {
     appearance: none;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 1px solid grey;
     font-weight: 500;
     font-size: medium;
     padding: 6px 8px;
 }
 
-label {
-}
-
 form {
     padding: 10px 50px;
-    background-color: #dcc9b6;
+    background-color: #a39171;
     box-shadow: 0px 5px 3px 0px #6f5e53;
     font-size: 1.5rem;
+    color: whitesmoke;
 }
 
-footer a {
-    color: black;
+.submit {
+    padding: 35px 50px;
+    font-size: 1.25rem;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0ead2;
+.submit p {
+    margin-top: 30px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -120,7 +121,7 @@ footer {
         height: 100px;
     }
 
-    .name {
+    .logo p {
         display: none;
     }
 
