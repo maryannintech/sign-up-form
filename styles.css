@@ -113,7 +113,6 @@ input:invalid {
 
 input:valid:not(.button) {
     border-color: #656d4a;
-    background-color: whitesmoke;
 }
 
 input:focus {
